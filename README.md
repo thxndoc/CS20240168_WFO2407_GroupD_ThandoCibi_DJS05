@@ -1,6 +1,10 @@
 # Project Overview
 Create a minimalistic, Redux-inspired store to manage and log the state of a counting Tally App.
 
+## How to run project
+1. Go to HTML file and open live-server
+2. Open dev tools (right-click on mouse and go to 'inspect') and go to console tab
+
 ## Implementations:
 - Created separate files for **actions**, **reducers**, **store** and placed in a **model** folder.
 - Defined action types and assigned them to variables.
