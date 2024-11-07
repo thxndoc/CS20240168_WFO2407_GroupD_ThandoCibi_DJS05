@@ -1,5 +1,26 @@
-# DJS05 Project Brief: Building a Redux-Inspired Store for a Tally App
+# Project Overview
+Create a minimalistic, Redux-inspired store to manage and log the state of a counting Tally App.
 
+## Implementations:
+- Created separate files for **actions**, **reducers**, **store** and placed in a **model** folder.
+- Defined action types and assigned them to variables.
+- Created a reducer to update the state based on the action type.
+- Created the store.
+- Dispatched actions and console logged results to see the different states.
+  
+**Challenges:** <br>
+1. **Importing file without adding extension**
+  - When I imported the **actions.js** file without an extension, the console displayed an error, whereas it had auto-filled for me in that format(**./actions**). I struggled to find the issue, but eventually saw that I had not added an extension.
+2. **Global store**
+  - I struggled to understand the global store and what exactly needs to be inside it. 
+  - I also struggled to understand the concept of the subscribers
+3. **JS Doc**
+  - I am currently not entirely comfortable using JS Doc, so it is something I'd like to come back to and learn properly because I see the benefit of using it - It seems that you need to be proficient enough to anticipate certain scenarios.
+4. **What I learned**
+  - I learned that in the observer pattern, the store is the subject and the subsctribers are the observers/listeners.
+  - The store holds the entire state of an application, its the single source of truth and the only way to get those states or changes is by dispatching the actions.
+  
+## DJS05 Project Brief: Building a Redux-Inspired Store for a Tally App
 In this challenge, you will venture into the realm of state management by constructing a Redux-inspired store to manage the state of a simple Tally App. Your primary goal is to manage the app's state changes efficiently, focusing on core functionalities like incrementing, decrementing, and resetting a counter. Instead of rendering changes on the UI, you'll subscribe to state updates and log them to the console, highlighting the power of state management in applications.
 
 ## Objective
