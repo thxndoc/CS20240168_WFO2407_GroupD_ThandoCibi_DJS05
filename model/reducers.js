@@ -1,4 +1,4 @@
-import { ADD, SUBTRACT, RESET } from './actions';
+import { ADD, SUBTRACT, RESET } from './actions.js';
 
 export const initialState = {
     count: 0
