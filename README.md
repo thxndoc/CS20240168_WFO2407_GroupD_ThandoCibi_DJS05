@@ -20,7 +20,9 @@ Create a minimalistic, Redux-inspired store to manage and log the state of a cou
   - I also struggled to understand the concept of the subscribers
 3. **JS Doc**
   - I am currently not entirely comfortable using JS Doc, so it is something I'd like to come back to and learn properly because I see the benefit of using it - It seems that you need to be proficient enough to anticipate certain scenarios.
-4. **What I learned**
+4. **Following along with the lesson on Redux**
+  - I struggled to follow along with the lesson on Redux when it came to creating the global store, and I tried to implement the code on my own in the context of the Tally App.
+5. **What I learned**
   - I learned that in the observer pattern, the store is the subject and the subsctribers are the observers/listeners.
   - The store holds the entire state of an application, its the single source of truth and the only way to get those states or changes is by dispatching the actions.
   
